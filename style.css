@@ -1,0 +1,262 @@
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color:blanchedalmond;
+}
+
+body {
+    background-color: black;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+main {
+    background-color: antiquewhite;
+    /*background-image: url("./img/317c6e9b819948375c955788d7377449.jpg"); */
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 0 1rem;
+}
+
+.mae-de-todas {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+
+}
+
+.mae-de-todas > * {
+    flex-basis: 100%;
+    color: black;
+}    
+
+.primeiro-topico {
+    text-align: justify;
+    
+}
+
+.primeiro-topico h2 {
+    text-align: left;
+}
+
+.foto-investimentos img {
+    width: 100%;
+    padding: 0 1rem;
+     
+}
+
+.segundo-topico {
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.segundo-topico h2 {
+    text-align: left;
+}
+
+.terceiro-topico {
+    display: block;
+    text-align: center;
+    padding-top: 0;
+    justify-content: center;
+    
+}
+
+.terceiro-topico h2 {
+    font-size: 2em;
+    padding-left: 1rem;
+}
+
+.quarto-topico {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.quinto-topico {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+
+.sexto-topico {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    color: black;
+    
+
+}
+
+.sexto-topico > * {
+    color: black;
+    flex-basis: 100%;
+    
+}
+
+.primeiro-assunto {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.setimo-topico {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+}
+
+.conta-matematica {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    flex-basis: 100%;
+    
+}
+
+.conta-matematica1 > * {
+    color: black;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    
+}
+
+.conta-matematica-principal {
+    font-weight: bold;
+}
+
+.legenda {
+    font-size: 0.90rem;
+}
+
+.oitavo-topico {
+    color: black;
+
+}
+
+.nono-topico {
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.nono-topico > * {
+    color: black;
+    flex-basis: 100%;
+}
+
+.nono-topico-texto > * {
+    flex-direction: column;
+    
+}
+
+.nono-topico-texto p {
+    height: 13rem;
+}
+
+/* elementos de destaque nos textos*/
+
+.importante {
+    font-weight: bold;
+    color: red;
+}
+
+.destaque {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+    
+
+}
+
+
+h2 {
+    color: black;
+    
+}
+
+
+p {
+font-size: 20px;
+color: black;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 0.80rem;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.menu ul {
+    list-style: none;
+    width: 50vw;
+    height: 1vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2vw; 
+}
+
+.menu li:hover {
+  font-weight: 800;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+
+
+/* inclusões feitas pelo daniel */
+
+div {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.fixed {
+    background-color:#4F628E;
+    width: 150px;
+    height: 190px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 40px;
+    margin-top: 0;
+    color: #fff;
+
+}
+
+.flex-item {
+    background-color:#7887AB;
+    flex-grow: 1;
+}
+
+
+
+
