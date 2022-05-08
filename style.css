@@ -257,6 +257,61 @@ div {
     flex-grow: 1;
 }
 
+@media (max-width: 1000px) {
+         
+    main {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
 
+    .mae-de-todas {
+        flex-direction: column;
+    }
+
+    .oitavo-topico {
+        padding: 0 1rem;
+    }
+
+    .nono-topico {
+        flex-direction: column;
+    }
+
+    .nono-topico-texto p {
+        height: auto;
+        padding: 0 1rem;
+    }
+
+    .sexto-topico {
+    flex-direction: column;
+    }
+
+    .fixed {
+        width: 150px;
+        height: auto;
+        font-size: 100px;
+        padding: 1rem;
+        margin: 0.5rem;
+        margin-top: 0;
+        
+    }
+
+    .terceiro-topico h2 {
+        font-size: 1.5em;
+        padding-left: 1rem;
+    }
+
+    
+
+    .conta-matematica-principal {
+        font-size: 0.75rem;
+    }
+
+    .menu ul {
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+
+}
 
 
